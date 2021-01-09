@@ -269,7 +269,14 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A2010-a/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
     vendor/lenovo/A2010-a/proprietary/lib/libmtcloader.so:system/lib/libmtcloader.so \
     vendor/lenovo/A2010-a/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
-    vendor/lenovo/A2010-a/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf
+    vendor/lenovo/A2010-a/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
+    vendor/lenovo/A2010-a/proprietary/bin/memsicd3524x:system/bin/memsicd3524x \
+    vendor/lenovo/A2010-a/proprietary/bin/qmcX983d:system/bin/qmcX983d \
+    vendor/lenovo/A2010-a/proprietary/lib/hw/gps.mt6735.so:system/lib/hw/gps.mt6735.so \
+    vendor/lenovo/A2010-a/proprietary/lib/hw/memtrack.mt6735.so:system/lib/hw/memtrack.mt6735.so \
+    vendor/lenovo/A2010-a/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
+    vendor/lenovo/A2010-a/proprietary/lib/libmal.so:system/lib/libmal.so \
+    vendor/lenovo/A2010-a/proprietary/lib/libmdfx.so:system/lib/libmdfx.so
     
 PRODUCT_PACKAGES += \
     YGPS
