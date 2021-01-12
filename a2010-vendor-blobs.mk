@@ -277,6 +277,5 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a2010/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/lenovo/a2010/proprietary/lib/libmal.so:system/lib/libmal.so \
     vendor/lenovo/a2010/proprietary/lib/libmdfx.so:system/lib/libmdfx.so
-    
-PRODUCT_PACKAGES += \
-    YGPS
+
+#PRODUCT_PACKAGES += \
