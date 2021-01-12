@@ -64,7 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a2010/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/lenovo/a2010/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib/mediadrm/libmockdrmcryptoplugin.so \
     vendor/lenovo/a2010/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/lenovo/a2010/proprietary/app/YGPS/YGPS.apk:system/app/YGPS/YGPS.apk \
     vendor/lenovo/a2010/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
     vendor/lenovo/a2010/proprietary/etc/agps_profiles_conf2.xml:system/etc/agps_profiles_conf2.xml \
     vendor/lenovo/a2010/proprietary/bin/mtkrild:system/bin/mtkrild \
