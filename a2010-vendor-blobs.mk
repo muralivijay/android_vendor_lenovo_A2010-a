@@ -277,6 +277,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a2010/proprietary/lib/libmal.so:system/lib/libmal.so \
     vendor/lenovo/a2010/proprietary/lib/libmdfx.so:system/lib/libmdfx.so \
     vendor/lenovo/a2010/proprietary/lib/libterservice.so:system/lib/libterservice.so \
-    vendor/lenovo/a2010/proprietary/lib/libviagpsrpc.so:system/lib/libviagpsrpc.so
+    vendor/lenovo/a2010/proprietary/lib/libviagpsrpc.so:system/lib/libviagpsrpc.so \
+    vendor/lenovo/a2010/proprietary/lib/libcam.campipe.so:system/lib/libcam.campipe.so \
+    vendor/lenovo/a2010/proprietary/lib/libimageio_FrmB.so:system/lib/libimageio_FrmB.so \
+    vendor/lenovo/a2010/proprietary/lib/libimageio_plat_drv_FrmB.so:system/lib/libimageio_plat_drv_FrmB.so
 
 #PRODUCT_PACKAGES += \
