@@ -276,6 +276,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a2010/proprietary/lib/hw/memtrack.mt6735.so:system/lib/hw/memtrack.mt6735.so \
     vendor/lenovo/a2010/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/lenovo/a2010/proprietary/lib/libmal.so:system/lib/libmal.so \
-    vendor/lenovo/a2010/proprietary/lib/libmdfx.so:system/lib/libmdfx.so
+    vendor/lenovo/a2010/proprietary/lib/libmdfx.so:system/lib/libmdfx.so \
+    vendor/lenovo/a2010/proprietary/lib/libterservice.so:system/lib/libterservice.so \
+    vendor/lenovo/a2010/proprietary/lib/libviagpsrpc.so:system/lib/libviagpsrpc.so
 
 #PRODUCT_PACKAGES += \
