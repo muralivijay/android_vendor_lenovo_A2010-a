@@ -18,6 +18,22 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),a2010)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := libcam2halsensor
+LOCAL_SRC_FILES_32 := proprietary/lib/libcam2halsensor.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libcameracustom
+LOCAL_SRC_FILES_32 := proprietary/lib/libcameracustom.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
 endif
 
 include $(call first-makefiles-under,$(LOCAL_PATH))

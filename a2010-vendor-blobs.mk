@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a2010/proprietary/lib/libcam.device1.so:system/lib/libcam.device1.so \
     vendor/lenovo/a2010/proprietary/lib/libcam.device3.so:system/lib/libcam.device3.so \
     vendor/lenovo/a2010/proprietary/lib/libcam.hal3a.v3.so:system/lib/libcam.hal3a.v3.so \
-    vendor/lenovo/a2010/proprietary/lib/libcam.halsensor.so:system/lib/libcam.halsensor.so \
     vendor/lenovo/a2010/proprietary/lib/libcam.iopipe.so:system/lib/libcam.iopipe.so \
     vendor/lenovo/a2010/proprietary/lib/libcam.metadataprovider.so:system/lib/libcam.metadataprovider.so \
     vendor/lenovo/a2010/proprietary/lib/libcam.paramsmgr.so:system/lib/libcam.paramsmgr.so \
@@ -177,7 +176,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a2010/proprietary/lib/libcam.metadata.so:system/lib/libcam.metadata.so \
     vendor/lenovo/a2010/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/lenovo/a2010/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
-    vendor/lenovo/a2010/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
     vendor/lenovo/a2010/proprietary/lib/libcam_mmp.so:system/lib/libcam_mmp.so \
     vendor/lenovo/a2010/proprietary/lib/libblisrc32.so:system/lib/libblisrc32.so \
     vendor/lenovo/a2010/proprietary/lib/libmtk_mmutils.so:system/lib/libmtk_mmutils.so \
@@ -282,4 +280,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a2010/proprietary/lib/libimageio_FrmB.so:system/lib/libimageio_FrmB.so \
     vendor/lenovo/a2010/proprietary/lib/libimageio_plat_drv_FrmB.so:system/lib/libimageio_plat_drv_FrmB.so
 
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
+  libcam2halsensor.so \
+  libcameracustom.so
