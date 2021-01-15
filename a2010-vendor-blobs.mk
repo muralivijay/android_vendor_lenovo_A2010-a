@@ -43,9 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a2010/proprietary/lib/libcam3_hwnode.so:system/lib/libcam3_hwnode.so \
     vendor/lenovo/a2010/proprietary/lib/libcam_hwutils.so:system/lib/libcam_hwutils.so \
     vendor/lenovo/a2010/proprietary/lib/libcam3_hwpipeline.so:system/lib/libcam3_hwpipeline.so \
-    vendor/lenovo/a2010/proprietary/lib/libcam_utils.so:system/lib/libcam_utils.so \
     vendor/lenovo/a2010/proprietary/lib/libcam_platform.so:system/lib/libcam_platform.so \
-    vendor/lenovo/a2010/proprietary/lib/libcam.client.so:system/lib/libcam.client.so \
     vendor/lenovo/a2010/proprietary/lib/libcam1_utils.so:system/lib/libcam1_utils.so \
     vendor/lenovo/a2010/proprietary/lib/libcam3_app.so:system/lib/libcam3_app.so \
     vendor/lenovo/a2010/proprietary/lib/libcam3_pipeline.so:system/lib/libcam3_pipeline.so \
@@ -186,7 +184,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a2010/proprietary/lib/libcam.exif.so:system/lib/libcam.exif.so \
     vendor/lenovo/a2010/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
     vendor/lenovo/a2010/proprietary/lib/libfeatureiodrv.so:system/lib/libfeatureiodrv.so \
-    vendor/lenovo/a2010/proprietary/lib/libcam.utils.so:system/lib/libcam.utils.so \
     vendor/lenovo/a2010/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
     vendor/lenovo/a2010/proprietary/lib/libimageio.so:system/lib/libimageio.so \
     vendor/lenovo/a2010/proprietary/lib/libimageio_plat_drv.so:system/lib/libimageio_plat_drv.so \
@@ -282,4 +279,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
   libcam2halsensor.so \
   libcameracustom.so \
-  libdpframework
+  libdpframework \
+  libcam1client \
+  libcam_utils \
+  libcam.utils \
