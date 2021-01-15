@@ -210,7 +210,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a2010/proprietary/lib/libbluetooth_relayer.so:system/lib/libbluetooth_relayer.so \
     vendor/lenovo/a2010/proprietary/lib/libbtem.so:system/lib/libbtem.so \
     vendor/lenovo/a2010/proprietary/lib/libextem.so:system/lib/libextem.so \
-    vendor/lenovo/a2010/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
     vendor/lenovo/a2010/proprietary/lib/libged.so:system/lib/libged.so \
     vendor/lenovo/a2010/proprietary/lib/libgpu_aux.so:system/lib/libgpu_aux.so \
     vendor/lenovo/a2010/proprietary/lib/libgralloc_extra.so:system/lib/libgralloc_extra.so \
@@ -282,4 +281,5 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
   libcam2halsensor.so \
-  libcameracustom.so
+  libcameracustom.so \
+  libdpframework
